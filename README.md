@@ -22,4 +22,4 @@
 - Includes a demo content (tap the cloud download icon in the action bar)
 
 # Screenshots
-![](/device-2017-08-09-181236.png | width=300)
+<img src="device-2017-08-09-184040.png" width="33%"> <img src="device-2017-08-09-184102.png" width="33%"> <img src="device-2017-08-09-184130.png" width="33%">
