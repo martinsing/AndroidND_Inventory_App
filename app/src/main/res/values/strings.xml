@@ -1,0 +1,99 @@
+<resources>
+
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake item data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all item data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Items</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_item">Add an Item</string>
+
+    <!-- Title for the activity to add a new item [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_item">Edit an Item</string>
+
+    <!-- Label for editor menu option to save item and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current item [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Item saved</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving item</string>
+
+    <!-- Toast message in editor when new item has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_successful">Item updated</string>
+
+    <!-- Toast message in editor when new item has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_update_item_failed">Error with updating item</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_gender">Gender</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_measurement">Measurement</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_breed">Breed</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_item_weight">Weight</string>
+
+    <!-- Units for weight of the item (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_item_weight">kg</string>
+
+    <!-- Label for dropdown menu option if the item's gender is unknown [CHAR LIMIT=20] -->
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the item is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the item is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+    <!-- Title text for the empty view, which describes the empty dog house image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">The store seems empty...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Let\'s go shopping!</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+    <string name="unsaved_changes_dialog_msg">You have unsaved changes</string>
+    <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+    <string name="discard">Discard</string>
+    <!-- Subtitle text for the empty view that prompts the user to add an item [CHAR LIMIT=50] -->
+    <string name="keep_editing">Keep Editing</string>
+    <!-- Toast message in editor when current item was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current item has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this item?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current item [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current item [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <string name="missing">Missing</string>
+    <string name="missing_image">Missing Image</string>
+</resources>
+

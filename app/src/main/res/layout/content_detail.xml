@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vegetablecorp.inventory.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Item Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Item Name" />
+
+            <!-- Input fields -->
+
+            <EditText
+                android:id="@+id/edit_item_name"
+                style="@style/EditorFieldStyle"
+                android:inputType="text"
+                android:paddingLeft="4dp" />
+        </LinearLayout>
+
+        <!-- Units on Hand -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/CategoryStyle"
+                android:text="Units on Hand" />
+
+            <!-- Input fields -->
+
+
+            <EditText
+                android:id="@+id/edit_item_units"
+                style="@style/EditorFieldStyle"
+                android:inputType="number"
+                android:maxLength="9" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/increase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_increase" />
+
+                <ImageView
+                    android:id="@+id/decrease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_decrease" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Selling Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Selling Price" />
+
+            <!-- Input fields -->
+
+            <EditText
+                android:id="@+id/edit_item_price"
+                style="@style/EditorFieldStyle"
+                android:inputType="numberDecimal"
+                android:maxLength="9"
+                android:paddingLeft="4dp" />
+        </LinearLayout>
+
+        <!-- Supplier Email -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_margin"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <!-- Label -->
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Supplier Email" />
+
+            <!-- Input fields -->
+
+            <EditText
+                android:id="@+id/edit_item_email"
+                style="@style/EditorFieldStyle"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/activity_margin"
+                android:background="@color/colorPrimary"
+                android:padding="@dimen/activity_margin"
+                app:srcCompat="@drawable/ic_delete" />
+
+            <Button
+                android:id="@+id/reorder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Request Order" />
+
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/activity_margin"
+                android:background="@color/colorPrimary"
+                android:padding="@dimen/activity_margin"
+                app:srcCompat="@drawable/ic_save" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
