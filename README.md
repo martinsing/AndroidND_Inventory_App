@@ -22,4 +22,4 @@
 - Includes a demo content (tap the cloud download icon in the action bar)
 
 # Screenshots
-![Alt text](/device-2017-08-09-181236.png?raw=true "Load Page" | width=300)
+![](/device-2017-08-09-181236.png | width=300)
