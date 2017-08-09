@@ -3,7 +3,7 @@
 - Project **Inventory App** of Android Basics Nanodegree
 - [Android Basics Nanodegree at Udacity.com](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803)
 
-## Android Goodies
+## Android Items
 
 - SQLite with OpenDbHelper
 - Cursors
